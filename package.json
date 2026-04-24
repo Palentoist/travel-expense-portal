@@ -1,0 +1,16 @@
+{
+  "name": "travel-expense-portal",
+  "version": "1.0.0",
+  "description": "Travel Expense Reimbursement & Approval Portal (PERN Stack)",
+  "private": true,
+  "scripts": {
+    "setup": "node setup-db.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "pg": "^8.11.3",
+    "dotenv": "^16.4.5"
+  }
+}
